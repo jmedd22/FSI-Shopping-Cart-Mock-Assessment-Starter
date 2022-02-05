@@ -17,13 +17,13 @@ let qtyDisplay = document.querySelector('.total-quantity')
 //add a click event to each button
 addBtn.addEventListener('click', function(e) {
     rockQty++
-    qtyDisplay.textContent = 'Quantity: + ${rockQty}'
+    qtyDisplay.textContent = `Quantity:  ${rockQty}`
 })
 
 minusBtn.addEventListener('click', function(e) {
     if (rockQty > 1) {
         rockQty--
-   qtyDisplay.textContent = 'Quantity: - ${rockQty}'
+        qtyDisplay.textContent = `Quantity:  ${rockQty}`
 
     }
    
